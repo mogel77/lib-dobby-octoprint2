@@ -20,6 +20,7 @@ public class File extends OctoStruct {
 
     private String name = "init";
     private String origin = "local";
+    private String type = "gcode";
     private int size;
     private int date;
 
@@ -31,6 +32,7 @@ public class File extends OctoStruct {
     public String getOrigin() {
         return origin;
     }
+    public String getType() { return type; }
 
     public int getSize() {
         return size;
